@@ -1,0 +1,29 @@
+{
+  "name": "waterquality",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chart.js": "^3.5.1",
+    "concurrently": "^6.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.10",
+    "nodemailer": "^6.6.5",
+    "nodemon": "^2.0.13",
+    "react-chartjs-2": "^3.0.5",
+    "react-to-print": "^2.13.0",
+    "sweetalert2": "^11.1.7",
+    "sweetalert2-react-content": "^4.1.1"
+  }
+}
